@@ -130,7 +130,7 @@ function loadCity() {
         .then(data => {
             data.forEach(element => {
                 const cityName = document.createElement('h3');
-                cityName.textContent = `${element.name}, ${element.state}, Lat: ${element.lat}, Lon: ${element.lon}`;
+                cityName.textContent = `${element.name}, ${element.state}`;
                 cityName.style.cursor = 'pointer';
                 cityName.setAttribute('class', 'city-name')
                 cityName.onclick = function () {
