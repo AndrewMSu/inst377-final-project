@@ -8,7 +8,7 @@ The purpose of this project is to create a website where you are able to find fr
 This application can only be a website. The browsers that were tested were chrome, brave, and safari.
 
 ## Developer Manual Link:
-[Link to the Developer Manual below](#Developer-Manual:)
+[Link to the Developer Manual below](#developer-manual)
 
 # Developer Manual:
 ## Overview
