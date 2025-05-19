@@ -1,0 +1,91 @@
+body {
+    background-color: #D4F1F4;
+}
+
+#main-nav {
+    background-color: #FcF8F5;
+    text-align: center;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-nav ul li:hover {
+    background-color: #CAB5A7;
+}
+
+#rules {
+    color: #05263B;
+    background-color: #FCF8F5;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.city-name {
+    color: #05263B;
+    background-color: #FCF8F5;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    max-width: fit-content;
+}
+
+.current-report {
+    color: #05263B;
+    background-color: #FCF8F5;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#about {
+    color: #05263B;
+    background-color: #FCF8F5;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#region {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.region-div {
+    color: #05263B;
+    background-color: #FCF8F5;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    flex: 1;
+}
+
+.new-location-div {
+    color: #05263B;
+    background-color: #FCF8F5;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+}

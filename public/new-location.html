@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Location</title>
+    <link rel="stylesheet" href="site.css">
+    <script src="snow.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Powder Tracker <img src="snowflake.png" style="height: 1.3em;" alt="snowflake"></h1>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="region.html">Region</a></li>
+            <li><a href="new-location.html">New Location</a></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <h1>Add New Resorts!!!</h1>
+    <h3>Just add the resorts name and geolocation to learn about its snowfall!</h3>
+
+    <form onsubmit="createResort(); return false;">
+        <label for="resort">Resort Name:</label>
+        <input type="text" id="resort">
+        <br>
+        <label for="latitude">Latitude:</label>
+        <input type="number" step="any" id="latitude">
+        <br>
+        <label for="longitude">Longitude:</label>
+        <input type="number" step="any"id="longitude">
+        <br>
+        <br>
+        <input type="submit" name="Add Resort">
+    </form>
+
+    <div id="new-location"></div>
+    <div id="snowResults"></div>
+    <br>
+    <canvas id="snowChart"></canvas>
+</body>

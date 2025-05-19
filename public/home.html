@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="site.css">
+    <script src="snow.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Powder Tracker <img src="snowflake.png" style="height: 1.3em;" alt="snowflake"></h1>
+    <nav id="main-nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="region.html">Region</a></li>
+            <li><a href="new-location.html">New Location</a></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <h2>Find the best POW!!!</h2>
+    <h3>Search for your favorite ski resorts and see if they got fresh snow incoming!</h3>
+    <div id="rules">
+        <h3>How to search</h3>
+        <p>To search type in the city the resort is in and click on the right state. If the city does not work try cities around the resort.</p>
+        <p>Example: Type in Vail -> Click on Vail, Colorado </p>
+    </div>
+    <form id="snowSearch">
+        <input type="text" id="cityName" required>
+        <button type="button" onclick="loadCity()">Search</button>
+    </form>
+
+    <div id="cityInfo"></div>
+    <div id="snowResults"></div>
+    <br>
+    <canvas id="snowChart"></canvas>
+</body>
+</html>

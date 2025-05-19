@@ -1,0 +1,30 @@
+{
+  "name": "inst377-final-project",
+  "version": "1.0.0",
+  "description": "Title: Powder Tracker",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "nodemon -e '*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewMSu/inst377-final-project.git"
+  },
+  "author": "Andrew Su",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewMSu/inst377-final-project/issues"
+  },
+  "homepage": "https://github.com/AndrewMSu/inst377-final-project#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
