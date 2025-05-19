@@ -112,7 +112,7 @@ function loadCity() {
     const city = document.getElementById('cityName').value.trim();
     const cityInfo = document.getElementById('cityInfo');
     const snowReport = document.getElementById('snowResults');
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
+    const url = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
 
     if(!city) {
         alert('Enter in a resort!');
