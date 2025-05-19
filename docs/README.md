@@ -8,7 +8,7 @@ The purpose of this project is to create a website where you are able to find fr
 This application can only be a website. The browsers that were tested were chrome, brave, and safari.
 
 ## Developer Manual Link:
-[Link to the Developer Manual below](#Developer Manual:)
+[Link to the Developer Manual below](#Developer-Manual:)
 
 # Developer Manual:
 ## Overview
@@ -17,9 +17,9 @@ This will help any further developer get off the ground and start working on imp
 ## How to install your application and all dependencies
 1. First clone the github repository
    - Use git clone SSH
-3. Download npm and node.js
+2. Download npm and node.js
    - Follow this link for your system https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/ 
-5. Install all dependencies
+3. Install all dependencies
    - npm init
    - npm install @supabase/supabase-js
    - npm install body-parser
@@ -29,14 +29,26 @@ This will help any further developer get off the ground and start working on imp
 ## How to run your application on a server
 1. Start the code
    - npm start
-3. Access application
+2. Access application
    - localhost:3000 
 
 ## How to run any tests you have written for your software
+You can test the code you have written by running the local host and seeing if the new function you created works.
 
 ## The API for your server application
+1. GET: Gets all the database data for the resorts.
+   - Endpoint: /FinalProject
+2. POST: Added the new data in the database for the resorts.
+   - Endpoint: /FinalProject
 
 ## Known bugs and a road-map for future development
-
+Known Bugs
+   - Some of the locations of the regions are not the most accurate as they come from the cities given by peakRankings.
+   - The openWeather API does not always give the correct city name or no name at all if you add in your own longitude and latitude.
+Future Development
+   - Some developments would be to make the locations more accurate to get the best readings of the current weather conditions.
+   - Make it where it will always say what the city name is.
+   - Add a function which allows the users to add the new location and then allow developers to make a decision if they want to add it to the region tab to create more community.
+   - Also for the search function you do not have to click on the state for the city you are looking for but just go straight to the weather report. 
 
 
