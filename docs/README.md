@@ -8,7 +8,7 @@ The purpose of this project is to create a website where you are able to
 This application can only be a website, not a mobile application. The browsers that you can use are chrome, brave.
 
 ## Developer Manual Link:
-[Link to the Developer Manual below](#Developer Manual)
+[Link to the Developer Manual below](#Developer Manual:)
 
 # Developer Manual:
 ## Overview
