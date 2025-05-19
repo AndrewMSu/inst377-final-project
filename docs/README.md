@@ -42,10 +42,10 @@ You can test the code you have written by running the local host and seeing if t
    - Endpoint: /FinalProject
 
 ## Known bugs and a road-map for future development
-Known Bugs
+### Known Bugs
    - Some of the locations of the regions are not the most accurate as they come from the cities given by peakRankings.
    - The openWeather API does not always give the correct city name or no name at all if you add in your own longitude and latitude.
-Future Development
+### Future Development
    - Some developments would be to make the locations more accurate to get the best readings of the current weather conditions.
    - Make it where it will always say what the city name is.
    - Add a function which allows the users to add the new location and then allow developers to make a decision if they want to add it to the region tab to create more community.
